@@ -1,0 +1,13 @@
+.prose {
+  max-width: 42rem;
+}
+
+.p {
+  margin: 0 0 1rem;
+  line-height: 1.65;
+  color: var(--color-text);
+}
+
+.p:last-child {
+  margin-bottom: 0;
+}
