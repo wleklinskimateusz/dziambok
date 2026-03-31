@@ -13,9 +13,9 @@ const sourceSans = Source_Sans_3({
 export const metadata: Metadata = {
   title: "Angielski — liceum, matura, Legal English | Korepetycje",
   description:
-    "Lekcje angielskiego dla licealistów i maturzystów. Angielski prawniczy (Legal English) — korepetytor po studiach prawniczych. Polska, zajęcia online i stacjonarnie.",
+    "Lekcje angielskiego dla licealistów i maturzystów. Angielski prawniczy (Legal English) — korepetytor po studiach prawniczych. Zajęcia online i stacjonarnie.",
   icons: {
-    icon: "/favicon.svg",
+    icon: (process.env.PAGES_BASE_PATH || "") + "/favicon.svg",
   },
   openGraph: {
     title: "Angielski — liceum, matura, Legal English",
